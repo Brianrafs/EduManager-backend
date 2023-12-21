@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.List;
 
 @RestController
-@RequestMapping("/alunos")
+@RequestMapping("/guardians")
 public class GuardianController {
 
     @Autowired

@@ -9,5 +9,5 @@ public interface GuardianRepository extends JpaRepository<Guardian, Long> {
 
     //public Guardian findByCpfAndName(String cpf, String name);
 
-    public Guardian findByCpf(String cpf);
+    Guardian findByCpf(String cpf);
 }

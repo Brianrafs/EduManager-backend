@@ -34,7 +34,7 @@ public class GuardianService {
             throw new RuntimeException();
         }
 
-        guardian.setFullName(guardian.getFullName() + " - alterado");
+        guardian.setFullName(guardian.getFullName());
         return guardianInserted;
     }
 
